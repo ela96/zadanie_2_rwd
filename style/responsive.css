@@ -11,7 +11,7 @@
     body {
         height: 150vh;
         overflow-x: hidden;
-        
+
     }
     header {
 
@@ -41,14 +41,14 @@
         background: #FFF url(../obrazy/man-1.jpg) no-repeat;
         background-size: cover;
         background-position: center;
-        
+
     }
     .txt {
         width: 100%;
         margin-top: 42vh;
         text-align: center;
         color: #000;
-        
+
 
 
     }
