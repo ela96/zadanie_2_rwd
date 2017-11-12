@@ -1,0 +1,54 @@
+@media all and (min-width: 1170px) {
+    header {
+        background: url(../obrazy/man-1.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+
+    }
+}
+
+@media (min-width:992px) and (max-width:1170px) {
+    body {
+        height: 150vh;
+        overflow-x: hidden;
+        
+    }
+    header {
+
+        background: #FFF url(../obrazy/man-2.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .txt {
+
+        margin-top: 10vh;
+        margin-right: 5vw;
+        float: right;
+
+    }
+
+
+}
+
+@media all and (max-width:992px) {
+    body {
+        height: 100vh;
+        overflow-x: hidden;
+    }
+
+    header {
+        height: 40vh;
+        background: #FFF url(../obrazy/man-1.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+    }
+    .txt {
+        width: 100%;
+        margin-top: 42vh;
+        text-align: center;
+        color: #000;
+        
+
+
+    }
