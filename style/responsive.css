@@ -5,6 +5,10 @@
         background-position: center;
 
     }
+    .txt {
+        left: 5%;
+        top: 30%;
+    }
 }
 
 @media (min-width:992px) and (max-width:1170px) {
@@ -14,16 +18,17 @@
 
     }
     header {
-
+        height: 70vh;
         background: #FFF url(../obrazy/man-2.jpg) no-repeat;
         background-size: cover;
         background-position: center;
+        
     }
     .txt {
 
-        margin-top: 10vh;
-        margin-right: 5vw;
         float: right;
+        right: 5%;
+        top:5%;
 
     }
 
@@ -37,7 +42,7 @@
     }
 
     header {
-        height: 40vh;
+        height: 50vh;
         background: #FFF url(../obrazy/man-1.jpg) no-repeat;
         background-size: cover;
         background-position: center;
@@ -45,7 +50,7 @@
     }
     .txt {
         width: 100%;
-        margin-top: 42vh;
+        top: 100%;
         text-align: center;
         color: #000;
 
